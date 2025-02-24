@@ -49,6 +49,5 @@
     "typescript": "^5.7.2",
     "vite": "^5.4.11",
     "vite-tsconfig-paths": "^5.1.4"
-  },
-  "homepage": "https://stven-ho.github.io/mac-make"
+  }
 }
