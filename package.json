@@ -10,7 +10,8 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
-    "db:typegen": "supabase gen types typescript --project-id ytryqnhnsshayoohsjiz > database.types.ts"
+    "db:typegen": "supabase gen types typescript --project-id ytryqnhnsshayoohsjiz > database.types.ts",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.3",
@@ -42,11 +43,12 @@
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.1",
     "drizzle-kit": "^0.30.4",
+    "gh-pages": "^6.3.0",
     "react-router-devtools": "^1.1.0",
     "tailwindcss": "^4.0.0",
     "typescript": "^5.7.2",
     "vite": "^5.4.11",
     "vite-tsconfig-paths": "^5.1.4"
   },
-  "homepage": "https://cheerful-haupia-9a77f7.netlify.app"
+  "homepage": "https://stven-ho.github.io/mac-make"
 }
